@@ -1,0 +1,301 @@
+/*
+ 		large view layout min-width:1200px
+ 		=============================================
+*/
+@media only screen and (min-width:1200px){
+
+}
+
+/*
+ 		responsive for medium device max-width:1199px;
+ 		=============================================
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+/*navbar-toggler*/
+.dropdown-menu.show {
+	margin-left: 45px;
+	margin-top: 16px;
+}
+/*slider heading h1*/
+.bg-none h1 {
+	font-weight: 900;
+	font-size: 35px;
+}
+/*slider button*/
+.btn-hover-style1,
+.btn-hover-style2 {
+	padding: 8px 30px ;
+}
+/*advice setion details area*/
+.details-img{
+	margin-top: 70px;
+}
+.single-counter h2 {
+	font-size: 28px;
+}
+.details-right h2 {
+	font-size: 24px;
+	font-weight: 700;
+}
+/*event page*/
+.single-post img {
+	min-height: 290px;
+}
+/*teacher*/
+i.social-icon {
+	margin: 10px 5px 20px 0;
+}
+button.portfolio-btn {
+	position: relative;
+	right: 36px;
+}
+.teacher-content a {
+	margin-left: 17px;
+}
+}
+
+/*
+ 		responsive for tablet layout max-width:991px;
+ 		=============================================
+*/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+/*sign-in and loging button */
+.sing-in{
+	display: none;
+}
+/*navbar-brand img*/
+.navbar-brand img {
+	height: 90% !important;
+	width: 75%;
+}
+.dropdown-menu-2 {
+	border: 1px solid #ddd;
+}
+.navbar{
+	padding-bottom: 40px;
+}
+/*slider heading h1*/
+.bg-none h1 {
+	font-weight: 900;
+	font-size: 30px;
+}
+/*slider button*/
+.btn-hover-style1,
+.btn-hover-style2 {
+	padding: 10px 15px;
+}
+/*carousel item imag*/
+.carousel-item img {
+	min-height: 260px;
+}
+/*home-slider*/
+.home-slider {
+	margin: 23px 0px 30px;
+}
+/*advice setion details area*/
+.details-img{
+	margin-top: 70px;
+}
+.single-counter h2 {
+	font-size: 28px;
+}
+.details-right h2 {
+	font-size: 20px;
+	font-weight: 400;
+}
+/*event page=============================*/
+.blog-post .col-sm-12{
+	flex: 0 0 100% !important;
+	max-width: 100% !important;
+}
+.right-sidebar {
+	margin-top: -47px;
+}
+/*seminar*/
+.gellary-heading {
+	margin-left: 67px;
+}
+/*teacher page*/
+.btn.portfolio-btn {
+	float: none;
+	margin: 15px 0;
+}
+/*comunicate*/
+.container {
+	max-width: 815px;
+}
+}
+
+/*
+ 		responsive for mobile layout max-width:767px;
+ 		=============================================
+*/
+@media only screen and (max-width: 767px){
+.navbar{
+	padding-bottom: 40px;
+}
+.navbar-brand img {
+	height: 90% !important;
+	width: 75%;
+}
+/*dropdown*/
+.dropdown-menu.show {
+	width: 100%;
+	padding: 20px 0;
+    margin: 10px 0;
+
+}
+.dropdown-menu-2,
+.dropdown-menu-1{
+	border: 1px solid #ddd;
+	width: 100% !important;
+}
+
+.dropdown-menu-2{
+	padding: 10px 25px;
+}
+.dropdown-menu-2 li a {
+	padding: 3px 0px !important;
+}
+
+.menu-title{
+	 background: none !important;
+	 border:0 !important;
+}
+.menu-title a {
+	padding: 4px 26px !important;
+	text-transform: capitalize;
+	font-weight: 400 !important;
+	background: none !important;
+}
+.menu-icon {
+	display: none;
+}
+.menu-title span {
+	display: none;
+}
+.mega-menu {
+	overflow: hidden;
+	border: 0;
+}
+.sing-in{
+	display: none;
+}
+/*slider heading h1*/
+.bg-none h1 {
+	font-weight: 700;
+	font-size: 25px;
+}
+.home-slider {
+    margin-top: 20px;
+}
+ /*course section */
+.single-recent img {
+	max-height: 350px;
+	width: 100%;
+}
+.single-recent {
+	padding: 70px 30px;
+	margin: 35px 0;
+}
+.single-counter {
+	margin: 20px 0;
+}
+/*work section*/
+.single-work {
+	margin: 0 0 40px 0;
+}
+/*event section*/
+.event-right-content {
+	padding-top: 20px;
+}
+/*comunicate secton*/
+.single-comunicate{
+	margin: 20px 0 0 0;
+}
+/*footer top section*/
+.about-us,
+.quick-link,
+.Courses{
+	padding-bottom: 50px;
+	margin-left: 20px;
+}
+/*login page*/
+.panel-default {
+	border-top: 1px solid rgb(221, 221, 221);
+	margin-top: 80px;
+	padding: 65px 0;
+	border-left: 0;
+}
+.home-slider {
+	margin-top: 72px;
+}
+/*seminar page seminar img*/
+.seminar-img1,
+.seminar-img2,
+.seminar-img3{
+	margin: 30px 0;
+	background-position: center;
+}
+.gellary-heading {
+	padding-top: 75px !important;
+}
+/*about-us page*/
+.about-description {
+	padding-top: 45px;
+}
+/*comunicate*/
+.container {
+	max-width: 815px;
+}
+}
+
+/*
+ 		responsive for mobile layout max-width:576px
+ 		=============================================
+*/
+@media only screen and (max-width: 576px){
+/*home slider padding*/
+.home-slider {
+    padding: 78px 0px 30px;
+    margin-top: 0;
+}
+
+/*contact page (.seminar-help)*/
+.seminar-help.p-4 {
+	text-align: center;
+}
+
+/*sidebar*/
+.right-sidebar {
+	margin-top: 60px;
+}
+
+/*navbar toggler*/
+.navbar-toggler.ml-auto.collapsed {
+	display: block;
+	text-align: center !important;
+	margin-bottom: 30px !important;
+	left: -112px !important;
+	position: relative;
+	top: 9px;
+}
+.navbar-brand.pl-md-2 {
+	display: block !important;
+	text-align: center;
+}
+/*teacher btn*/
+button.portfolio-btn {
+	float: none;
+	margin: 15px 0;
+}
+}
+
+
+
+
+
+
+
+

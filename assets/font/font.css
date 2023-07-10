@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url('OpenSans-Regular.eot');
+  src: url('OpenSans-Regular.woff2') format('woff2'),
+       url('OpenSans-Regular.woff') format('woff'),
+       url('OpenSans-Regular.ttf') format('truetype'),
+       url('OpenSans-Regular.svg#OpenSans-Regular') format('svg'),
+       url('OpenSans-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url('OpenSans-Bold.eot');
+  src: url('OpenSans-Bold.woff2') format('woff2'),
+       url('OpenSans-Bold.woff') format('woff'),
+       url('OpenSans-Bold.ttf') format('truetype'),
+       url('OpenSans-Bold.svg#OpenSans-Bold') format('svg'),
+       url('OpenSans-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Maven Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Maven Pro Regular'), local('MavenPro-Regular'), url(https://fonts.gstatic.com/s/mavenpro/v11/7Au9p_AqnyWWAxW2Wk3GzWQI.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Maven Pro';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Maven Pro Medium'), local('MavenPro-Medium'), url(https://fonts.gstatic.com/s/mavenpro/v11/7Au4p_AqnyWWAxW2Wk3OPkcdP3kD.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Maven Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Maven Pro Bold'), local('MavenPro-Bold'), url(https://fonts.gstatic.com/s/mavenpro/v11/7Au4p_AqnyWWAxW2Wk3OdkEdP3kD.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Work Sans'), local('WorkSans-Regular'), url(https://fonts.gstatic.com/s/worksans/v3/QGYsz_wNahGAdqQ43Rh_fKDp.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Work Sans Medium'), local('WorkSans-Medium'), url(https://fonts.gstatic.com/s/worksans/v3/QGYpz_wNahGAdqQ43Rh3j4P8mNhN.woff2) format('woff2');
+}
